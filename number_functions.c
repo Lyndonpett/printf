@@ -9,8 +9,7 @@
  */
 
 int func_unsigned(va_list list)
-{
-	unsigned int m, number;
+{	unsigned int m, number;
 	int i, k, count = 0;
 
 	number = va_arg(list, unsigned int);
@@ -48,11 +47,9 @@ int func_unsigned(va_list list)
 		_putchar(m % 10 + '0'), count++;
 	}
 	else
-	{
-		m = (UINT_MAX + 1) - number;
-		_putchar(m + '0'), count++;
-	}
-	return (count);
+	{	m = (UINT_MAX + 1) - number;
+		_putchar(m + '0'), count++; }
+	return (count); 
 }
 
 /**

@@ -34,5 +34,7 @@ int func_unsigned(va_list list);
 int func_octal(va_list list);
 int func_hex_lower(va_list list);
 int func_hex_upper(va_list list);
+int func_revstr(va_list list);
+int func_str_uppercase(va_list list);
 
 #endif /* HOLBERTON_H */
