@@ -16,6 +16,10 @@ int _printf(const char *format, ...)
 		{"d", func_digit},
 		{"i", func_digit},
 		{"b", func_binary},
+		{"u", func_unsigned},
+		{"o", func_octal},
+		{"x", func_hex_lower},
+		{"X", func_hex_upper},
 		{NULL, NULL}
 	};
 

@@ -30,5 +30,9 @@ int get_function(const char *format, va_list list, st_fmt st_format[]);
 int func_digit(va_list list);
 int func_converter(unsigned int num, int base, int flag);
 int func_binary(va_list list);
+int func_unsigned(va_list list);
+int func_octal(va_list list);
+int func_hex_lower(va_list list);
+int func_hex_upper(va_list list);
 
 #endif /* HOLBERTON_H */
