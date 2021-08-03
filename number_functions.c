@@ -49,7 +49,7 @@ int func_unsigned(va_list list)
 	else
 	{	m = (UINT_MAX + 1) - number;
 		_putchar(m + '0'), count++; }
-	return (count); 
+	return (count);
 }
 
 /**
