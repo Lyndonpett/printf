@@ -20,6 +20,8 @@ int _printf(const char *format, ...)
 		{"o", func_octal},
 		{"x", func_hex_lower},
 		{"X", func_hex_upper},
+		{"S", func_str_uppercase},
+		{"r", func_revstr},
 		{NULL, NULL}
 	};
 
