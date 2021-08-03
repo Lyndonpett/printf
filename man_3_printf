@@ -1,0 +1,46 @@
+./" Manpage for _printf.
+.TH _printf 1 2021-08-03 GNU
+.SH NAME
+_printf \- print formatted
+
+.SH DESCRIPTION
+.B _printf
+prints arguments according to formatted
+
+.SH OPTIONS
+.TP
+.BR \-s
+prints a string
+.TP
+.BR \-c
+prints a character
+.TP
+.BR \-%
+prints percent
+.TP
+.BR \-d ", " \-i
+prints an integer
+.TP
+.BR \-b
+prints in binary
+.TP
+.BR \-u
+prints unsigned integer
+.TP
+.BR \-o
+prints octal decimal
+.TP
+.BR \-x
+lowercase hexadecimal
+.TP
+.BR \-X 
+lowercase hexadecimal
+.TP
+.BR \-S 
+prints string in uppercase
+.TP
+.BR \-r
+prints string in reverse
+
+.SH AUTHOR
+Lyndon J Petterssqon, Nikki Jo Ford
