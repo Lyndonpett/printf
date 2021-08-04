@@ -1,5 +1,5 @@
 ./" Manpage for _printf.
-.TH _printf 1 2021-08-03 GNU
+.TH _printf "1" "2021-08-03" "GNU"
 .SH NAME
 _printf \- print formatted
 
